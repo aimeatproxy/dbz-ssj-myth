@@ -1,0 +1,19 @@
+name: CI
+
+# CI cannot build the ROM: the base ROM is copyrighted and never in the repo.
+# It checks tooling and that no game data has been committed.
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - run: make test
+      - run: make check-no-roms

@@ -1,0 +1,31 @@
+# Build output
+/build/
+
+# Game data - NEVER commit (see docs/decisions/0004-no-copyrighted-material.md)
+/baserom/*
+!/baserom/README.md
+/references/*
+!/references/README.md
+/extracted/
+*.sfc
+*.smc
+*.swc
+*.fig
+*.nes
+*.fds
+*.sav
+*.srm
+*.cdl
+*.state
+*.mss
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
