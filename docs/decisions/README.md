@@ -11,3 +11,4 @@ Short records of decisions that shape the project, so later contributors (and ag
 | [0005](0005-reference-roms.md) | Reference ROMs stay local | Accepted |
 | [0006](0006-license.md) | License: GPL-3.0 | Accepted |
 | [0007](0007-universal-modder-not-adopted.md) | universal-modder not adopted | Accepted |
+| [0008](0008-translated-rom-text-reference-only.md) | Fan-translated ROM is a text reference only | Accepted |

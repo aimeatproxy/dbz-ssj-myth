@@ -10,3 +10,8 @@ All notable changes are recorded here. Format follows [Keep a Changelog](https:/
 - `tools/check_no_roms.sh` and `.githooks/pre-commit` guard against committing game data.
 - `Makefile` (header, verify, build, compare, test, check) targeting ca65/ld65.
 - CI workflow (tool tests + no-ROM check), PR and issue templates, `.editorconfig`, `.gitattributes`.
+
+### Documented
+- Reference ROMs recorded in `docs/references.md` (owner-reported): Famicom *Kyōshū! Saiyajin* held, *Gekishin Freeza!!* missing, fan-translated SNES ROM flagged as non-target.
+- ADR-0008: the fan-translated ROM is an English-text reference only and never the matching target.
+- `docs/ROM_INFO.md`: what is known so far and the steps for when the original dump arrives.

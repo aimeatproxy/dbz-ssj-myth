@@ -3,7 +3,7 @@
 Milestones in order. Update when work lands.
 
 - [x] **M0** Repository scaffolding, tooling, docs, ADRs
-- [ ] **M1** ROM identified; `docs/ROM_INFO.md` and `rom.sha1` filled
+- [ ] **M1** ROM identified; `docs/ROM_INFO.md` and `rom.sha1` filled. *Blocked: waiting on the owner's original Japanese dump. The fan-translated ROM is not the target ([ADR-0008](decisions/0008-translated-rom-text-reference-only.md)).*
 - [ ] **M2** `linker/snes.cfg` and header/vectors reproduce the ROM layout
 - [ ] **M3** Matching build from splits + `.incbin` (entire ROM, zero real disassembly)
 - [ ] **M4** Mesen2 CDL coverage collected; code/data boundaries and M/X flags marked
@@ -13,5 +13,7 @@ Milestones in order. Update when work lands.
 - [ ] **M8** Data formats documented with extractors (graphics, maps, text, tables)
 - [ ] **M9** Sound (SPC700 driver) plan and tooling decided
 - [ ] **M10** All code converted; all remaining `Code_/Data_` labels are intentional
+
+M2 starts only once M1 is ticked.
 
 Percentages of ROM converted will be tracked here once M3 gives a denominator.

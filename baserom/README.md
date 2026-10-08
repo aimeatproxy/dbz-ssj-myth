@@ -6,3 +6,4 @@ Place **your own legally obtained dump** here as `baserom.sfc`. Everything in th
 - Run `make header` and record the results in `docs/ROM_INFO.md`.
 - Put the headerless SHA-1 in `/rom.sha1` (a hash is not game data and is committed).
 - Treat files here as read-only.
+- Only the **original** dump belongs at `baserom.sfc`. Patched/fan-translated ROMs are not targets ([ADR-0008](../docs/decisions/0008-translated-rom-text-reference-only.md)); keep them in `references/`.
